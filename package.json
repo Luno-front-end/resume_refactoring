@@ -1,5 +1,5 @@
 {
-  "name": "goit-js-hw-12-countries",
+  "name": "resume",
   "version": "5.0.0",
   "description": "",
   "main": "index.js",
@@ -13,16 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/НИКНЕЙМ/ИМ'Я_РЕПОЗИТОРІЯ.git"
+    "url": "git+https://github.com/Luno-front-end/resume_refactoring.git"
   },
+
   "keywords": [
     "webpack",
     "webpack 5"
   ],
   "bugs": {
-    "url": "https://github.com/НИКНЕЙМ/ИМ'Я_РЕПОЗИТОРІЯ/issues"
+    "url": "https://github.com/Luno-front-end/resume_refactoring/issues"
   },
-  "homepage": "https://НИКНЕЙМ.github.io/ИМ'Я_РЕПОЗИТОРІЯ",
+  "homepage": "https://Luno-front-end.github.io/resume_refactoring",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
