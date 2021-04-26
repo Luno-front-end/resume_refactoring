@@ -2,9 +2,27 @@
   background-color: $bg-sidebar;
   height: 100%;
 }
-.preview-photo {
+.container-preview-photo {
   width: 370px;
+
   padding-top: 40px;
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // height: 250px;
+}
+
+.preview-photo {
+  display: block;
+  width: 250px;
+  height: 250px;
+
+  margin: 0 auto;
+
+  background-size: contain;
+  // padding-top: 40px;
+  border-radius: 50%;
 }
 .saide-title {
   margin-top: 0;
