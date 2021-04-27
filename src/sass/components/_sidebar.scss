@@ -72,8 +72,8 @@
 }
 
 .icon {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
 }
 .sider-a {
   display: block;
@@ -126,6 +126,17 @@
     }
     &:focus {
       fill: #9941a6;
+      transition: fill 250ms linear;
+    }
+  }
+  .icon-skype {
+    transition: fill 250ms linear;
+    &:hover {
+      fill: #009ddc;
+      transition: fill 250ms linear;
+    }
+    &:focus {
+      fill: #009ddc;
       transition: fill 250ms linear;
     }
   }
