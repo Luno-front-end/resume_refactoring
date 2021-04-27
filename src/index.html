@@ -19,9 +19,9 @@
           <img class="preview-photo" src="./images/photo.jpg" alt="my photo" />
         </div>
         <div class="skills-container">
-          <h1 class="saide-title">Контакти</h1>
-          <ul class="general-ul">
-            <li class="sider-list" class="contact">
+          <h1 class="saide-title">Contacts</h1>
+          <ul class="general-ul contacts-container">
+            <!-- <li class="sider-list" class="contact">
               <span class="contact-symbol">C:</span
               ><a class="sider-a" href="tel:0507786255"> +380507786155</a>
             </li>
@@ -30,6 +30,46 @@
               <a class="sider-a" href="mailto:zaikamaximwork@gmail.com">
                 zaikamaximwork@gmail.com</a
               >
+            </li> -->
+            <li class="item-contacts tooltip">
+              <a class="sider-a" href="tel:0507786255">
+                <svg class="icon icon-phone">
+                  <use href="./images/sprite.svg#phone"></use>
+                </svg>
+                <span class="tooltiptext">0507786255</span>
+              </a>
+            </li>
+            <li class="item-contacts tooltip">
+              <a class="sider-a" href="mailto:zaikamaximwork@gmail.com">
+                <svg class="icon icon-email">
+                  <use href="./images/sprite.svg#email"></use>
+                </svg>
+                <span class="tooltiptext">zaikamaximwork@gmail.com</span>
+              </a>
+            </li>
+            <li class="item-contacts tooltip">
+              <a
+                class="sider-a"
+                href="https://www.linkedin.com/in/максим-заїка-a29929200"
+                target="_blank"
+              >
+                <svg class="icon icon-linkedin">
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+                <span class="tooltiptext">Profile linkedin</span>
+              </a>
+            </li>
+            <li class="item-contacts tooltip">
+              <a
+                class="sider-a"
+                href="https://github.com/Luno-front-end"
+                target="_blank"
+              >
+                <svg class="icon icon-github">
+                  <use href="./images/sprite.svg#github"></use>
+                </svg>
+                <span class="tooltiptext">Github</span>
+              </a>
             </li>
           </ul>
         </div>
@@ -45,10 +85,13 @@
             </li>
             <li class="sider-list"><span class="sider-text">React</span></li>
             <li class="sider-list">
-              <span class="sider-text">React hook</span>
+              <span class="sider-text">React</span>
             </li>
             <li class="sider-list">
-              <span class="sider-text">React-redux</span>
+              <span class="sider-text">React Router</span>
+            </li>
+            <li class="sider-list">
+              <span class="sider-text">Redux</span>
             </li>
             <li class="sider-list">
               <span class="sider-text">Webpack/parcel</span>
@@ -62,10 +105,23 @@
         <div class="skills-container">
           <h3 class="saide-title">Soft Skills</h3>
           <ul>
-            <li class="sider-list"><span class="sider-text">Scrum</span></li>
-            <li class="sider-list"><span class="sider-text">Agile</span></li>
+            <li class="sider-list"><span class="sider-text">Teamwork</span></li>
             <li class="sider-list">
               <span class="sider-text">Team Leader</span>
+            </li>
+          </ul>
+        </div>
+        <div class="skills-container">
+          <h3 class="saide-title">Language skills</h3>
+          <ul>
+            <li class="sider-list">
+              <span class="sider-text">English: Beginner, Elementary </span>
+            </li>
+            <li class="sider-list">
+              <span class="sider-text">Russian: Native </span>
+            </li>
+            <li class="sider-list">
+              <span class="sider-text">Ukrainian: Native </span>
             </li>
           </ul>
         </div>
@@ -80,6 +136,12 @@
         <h2 class="title-work">
           <span class="title-work-text">Front-End Developer</span>
         </h2>
+        <h3 class="title">Sammary</h3>
+        <p class="additional-information">
+          I am looking for a job where I will constantly develop and discover
+          something new. I want to get into a team with which we will rise
+          together.
+        </p>
 
         <!-- <ul class="general-ul personal-information">
             <li class="list-information">date of birth: 22.04.1998</li>
@@ -150,7 +212,7 @@
                 >Filmoteka</a
               ><span class="dots"></span
               ><span class="language">
-                <b class="bracket">[</b> JavaScript
+                <b class="bracket">[</b> Team project. JavaScript
                 <b class="bracket">]</b></span
               >
             </li>
@@ -189,9 +251,20 @@
                 <b class="bracket">]</b></span
               >
             </li>
+            <li class="project-list">
+              <a
+                class="project-link"
+                target="_blank"
+                href="https://ted-app-test-project-team.netlify.app/"
+                >Pro Test</a
+              ><span class="dots"></span
+              ><span class="language">
+                <b class="bracket">[</b> Team project. React, Redux, Axios,
+                Google Oauth2 <b class="bracket">]</b></span
+              >
+            </li>
           </ol>
         </div>
-
         <!-- work -->
 
         <div>
@@ -292,26 +365,37 @@
         </div> -->
 
         <div>
-          <h5 class="title">Навчання</h5>
+          <h5 class="title">Education</h5>
           <div class="study-container">
             <p class="title-institution">GOIT academiy</p>
-            <p class="study-profession">Frontend developer</p>
+
+            <p class="study-profession">
+              Frontend/Fullstack developer.
+              <a
+                target="_blank"
+                href="https://mail-attachment.googleusercontent.com/attachment/u/1/?ui=2&ik=9fd6352e51&attid=0.1&permmsgid=msg-f:1697763778906290042&th=178fab296a3bf77a&view=att&disp=inline&realattid=f_knt6hn010&saddbat=ANGjdJ_bF9_UvIS5TQ_Ugr6fdns4p0DTQ02RYsl0SdPjOqsfOqTMzoNXA-uHGdjvNfATVo9jOgs_sP0HawelA4tZvIvcQAlLDqwt4_US_fm7AOh9_FEEUoVLbumAmTfP3mUkzWgKP1YOpe1CSLoeoiEQSEDSs31kB-we7dDWpQAexzhTm18c0TCBRP9AlE517EU51NgkAEvlLHrzNcGSJ3J-1Ddbc1Jkr00Gfnuia2aKJnBR59Ec55Ozpv9CLegmSipvFHW9qcjso0iWPxhIg-359RS0ATaZusg8SRiXPg5oCyn7xAcouia1IwoSXSZ0ydMLoXm7LBel4-7OAATRGGnYbmvELERxChOceuS5VSr7gm6GEr0xhhA1UjN5Ug1fuf7pkKp6DGmnVZz5Chwp7feUnxdK1mU1zdGDTqI83JAH4AKLcDsQbkSzhcUh2pUZSmprTAKoh2915syYlm9eTGmVMh2JOQqcdmFn6fVMkVjcyNHpo8eGfTW6uxaDRAW_u6z6T6F5llDnT8boWyOL0bzj0MKnsZfgToRzQiY8E0_CTk-fJdjbTlSxwnP4cHny-39__BusCMD_E4FdvSQJThpMedivlCCNZ9DDDiaORJnkTL5iXNd3pdPcyUIMhIrxPoGSWtj-v7mOXF5wrPO6p6r486liGmVZv5r_a8gBcaSGoUmybNpx5c3VqiAaFSo"
+                class="project-link"
+                >Certificate of completion</a
+              >
+            </p>
             <p class="working-hours">
-              2020 Квітень - теперішній час
-              <span class="delimiter">|</span> Україна
+              2020 April - 2021 April
+              <span class="delimiter">|</span>
+              Ukraine
             </p>
           </div>
+
           <div class="study-container">
             <p class="title-institution">
-              Київський коледж комп’ютерних технологій та економіки
-              Національного авіаційного університету.
+              Kyiv College of Computer Technology and Economics National
+              Aviation University.
             </p>
             <p class="study-profession">
-              Спеціальність: Обслуговування комп’ютерних систем і мереж.
-              Професійна кваліфікація – комп’ютерний інженер.
+              Specialty: Maintenance of computer systems and networks.
+              Professional qualification - computer engineer.
             </p>
             <p class="working-hours">
-              2014 - 2018 <span class="delimiter">|</span> Україна
+              2014 - 2018 <span class="delimiter">|</span> Ukraine
             </p>
           </div>
         </div>
