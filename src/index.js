@@ -1,2 +1,2 @@
-import './sass/main.scss';
-import './js/tooltip';
+// import './sass/main.scss';
+import "./js/tooltip";
