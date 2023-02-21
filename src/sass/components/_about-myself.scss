@@ -15,13 +15,13 @@
 
   & .title-work-text {
     min-width: 200px;
+    white-space: nowrap;
   }
 
   &::after {
     display: inline-block;
-    content: '';
-    width: 600px;
-    width: 77%;
+    content: "";
+    width: 60%;
     height: 15px;
     background-color: $bg-sidebar;
   }
